@@ -1,0 +1,58 @@
+canonical_skill,model,priority_score,rank
+SQL,Entry Focused,89.03225806451611,1
+Excel,Entry Focused,72.36481033091202,2
+Python,Entry Focused,49.63721588215049,3
+Tableau,Entry Focused,45.233720123001895,4
+Power BI,Entry Focused,44.305673111514125,5
+Data Visualization,Entry Focused,29.157431737885343,6
+R,Entry Focused,28.80541000027936,7
+Data Analysis,Entry Focused,25.974796053160443,8
+Data Modeling,Entry Focused,21.07827069879645,9
+Statistics,Entry Focused,19.815208304470914,10
+Looker,Entry Focused,18.739758568598866,11
+ETL,Entry Focused,16.826540996607207,12
+Snowflake,Entry Focused,16.604605482329738,13
+Reporting,Entry Focused,15.873764379660868,14
+Machine Learning,Entry Focused,14.052349728707519,15
+Data Quality,Entry Focused,13.584098389348757,16
+AWS,Entry Focused,13.575906498495922,17
+Data Mining,Entry Focused,12.731914832157077,18
+Data Warehousing,Entry Focused,12.314104073463621,19
+SQL,Balanced,92.68817204301077,1
+Excel,Balanced,58.54721549636803,2
+Python,Balanced,56.176253930752615,3
+Tableau,Balanced,51.45273072213723,4
+Power BI,Balanced,48.17893977479807,5
+R,Balanced,36.75650209719323,6
+Data Visualization,Balanced,32.17700782188177,7
+Data Analysis,Balanced,28.478323111998726,8
+Data Modeling,Balanced,26.50987916647425,9
+Statistics,Balanced,25.421737187889164,10
+Looker,Balanced,25.15264860558647,11
+ETL,Balanced,23.089273860502203,12
+Snowflake,Balanced,23.02518779338708,13
+AWS,Balanced,20.363859747743884,14
+Reporting,Balanced,20.047205709276245,15
+Machine Learning,Balanced,19.7344385715559,16
+Data Mining,Balanced,18.560237839633466,17
+Data Quality,Balanced,18.49442715391561,18
+Data Warehousing,Balanced,18.47115611019543,19
+SQL,Career Growth,94.51612903225806,1
+Python,Career Growth,60.71341741870489,2
+Tableau,Career Growth,55.89884955111456,3
+Power BI,Career Growth,51.519258431104475,4
+Excel,Career Growth,48.54721549636803,5
+R,Career Growth,43.28605236797261,6
+Data Visualization,Career Growth,35.886135833811764,7
+Data Modeling,Career Growth,32.09939333333713,8
+Data Analysis,Career Growth,31.843757536298234,9
+Looker,Career Growth,31.46282834030117,10
+Statistics,Career Growth,30.911887097629382,11
+ETL,Career Growth,29.37049197524987,12
+Snowflake,Career Growth,29.273284489093854,13
+AWS,Career Growth,26.732119695942608,14
+Machine Learning,Career Growth,25.564279243402694,15
+Data Warehousing,Career Growth,24.628208146927243,16
+Reporting,Career Growth,24.626281135067003,17
+Data Mining,Career Growth,24.43151952866886,18
+Data Quality,Career Growth,23.75688692944343,19

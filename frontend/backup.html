@@ -1,0 +1,1127 @@
+                    Target role
+                </label>
+
+                <select id="targetRole">
+
+                    <option value="Data Analyst" selected>
+                        Data Analyst
+                    </option>
+
+                    <option value="Business Analyst">
+                        Business Analyst
+                    </option>
+
+                    <option value="BI Analyst">
+                        BI Analyst
+                    </option>
+
+                    <option value="Data Scientist">
+                        Data Scientist
+                    </option>
+
+                    <option value="Marketing Analyst">
+                        Marketing Analyst
+                    </option>
+
+                    <option value="Financial Analyst">
+                        Financial Analyst
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div>
+
+                <label for="currentLevel">
+                    Current level
+                </label>
+
+                <select id="currentLevel">
+
+                    <option value="Entry">
+                        Entry
+                    </option>
+
+                    <option value="Internship">
+                        Internship
+                    </option>
+
+                    <option value="Junior">
+                        Junior
+                    </option>
+
+                    <option value="Mid">
+                        Mid
+                    </option>
+
+                    <option value="Mid-Senior">
+                        Mid-Senior
+                    </option>
+
+                    <option value="Senior">
+                        Senior
+                    </option>
+
+                    <option value="Lead">
+                        Lead
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div>
+
+                <label for="targetLevel">
+                    Target level
+                </label>
+
+                <select id="targetLevel">
+
+                    <option value="Junior">
+                        Junior
+                    </option>
+
+                    <option value="Mid">
+                        Mid
+                    </option>
+
+                    <option value="Mid-Senior">
+                        Mid-Senior
+                    </option>
+
+                    <option value="Senior" selected>
+                        Senior
+                    </option>
+
+                    <option value="Lead">
+                        Lead
+                    </option>
+
+                </select>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- SKILLS -->
+
+    <div class="card">
+
+        <h2>Your skills</h2>
+
+        <div id="skillsContainer"></div>
+
+    </div>
+
+
+    <!-- BUTTON -->
+
+    <button id="analyzeBtn">
+        Analyze My Skill Gap
+    </button>
+
+
+    <div id="errorBox" class="error hidden"></div>
+
+
+    <!-- RESULTS -->
+
+    <section id="results" class="hidden">
+
+        <div class="analysis-header">
+
+            <h2>Your career analysis</h2>
+
+            <div class="transition" id="careerTransition"></div>
+
+        </div>
+
+
+        <!-- SUMMARY -->
+
+        <div class="summary-grid">
+
+            <div class="summary-dark">
+
+                <div class="small">
+                    Career transition
+                </div>
+
+                <h2 id="summaryTransition">
+                    Entry â†’ Senior
+                </h2>
+
+                <p>
+                    Your recommendations are based on your current
+                    skills, market demand and career progression.
+                </p>
+
+            </div>
+
+
+            <div class="highest">
+
+                <div class="small">
+                    Highest priority
+                </div>
+
+                <h2 id="highestSkill">
+                    SQL
+                </h2>
+
+                <span class="badge" id="highestPriority">
+                    Critical
+                </span>
+
+                <div class="score">
+                    <span id="highestScore">0</span> / 100
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ROLE FIT -->
+        <div class="card" id="roleFitCard">
+            <h2 class="section-title">
+                Role fit
+            </h2>
+
+            <div class="section-subtitle">
+                The biggest skill gaps for your selected target role.
+            </div>
+
+            <div id="roleFitContent"></div>
+        </div>
+
+
+        <!-- NEXT SKILLS -->
+
+        <div class="card">
+
+            <h2 class="section-title">
+                Your next 3 skills
+            </h2>
+
+            <div class="section-subtitle">
+                The skills with the highest priority for your career transition.
+            </div>
+
+            <div id="nextSkills" class="next-skills"></div>
+
+        </div>
+
+
+        <!-- CORE -->
+
+        <div class="card">
+
+            <h2 class="section-title">
+                Core skills
+            </h2>
+
+            <div class="section-subtitle">
+                Skills with the strongest target-level demand.
+            </div>
+
+            <div id="coreResults"></div>
+
+        </div>
+
+
+        <!-- GROWTH -->
+
+        <div class="card">
+
+            <h2 class="section-title">
+                Growth skills
+            </h2>
+
+            <div class="section-subtitle">
+                Skills that become increasingly valuable as you progress.
+            </div>
+
+            <div id="growthResults"></div>
+
+        </div>
+
+
+        <!-- SPECIALIZED -->
+
+        <div class="card">
+
+            <h2 class="section-title">
+                Specialized skills
+            </h2>
+
+            <div class="section-subtitle">
+                Skills that can create additional career advantages.
+            </div>
+
+            <div id="specializedResults"></div>
+
+        </div>
+
+
+        <!-- ROADMAP -->
+
+        <div class="card roadmap">
+
+            <h2 class="section-title">
+                Your 90-day roadmap
+            </h2>
+
+            <div class="section-subtitle">
+                A practical learning path based on your highest-priority skills.
+            </div>
+
+            <div id="roadmapResults"></div>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+        SkillGap Career Intelligence
+    </footer>
+
+</div>
+
+
+<script>
+
+    // =========================================================
+    // API
+    // =========================================================
+
+    const API_URL = "http://127.0.0.1:8001";
+
+
+    // =========================================================
+    // SKILLS
+    // =========================================================
+
+    const skills = [
+        "SQL",
+        "Excel",
+        "Python",
+        "Tableau",
+        "Power BI",
+        "R",
+        "Data Visualization",
+        "Data Analysis",
+        "Statistics"
+    ];
+
+
+    // =========================================================
+    // CREATE SKILL INPUTS
+    // =========================================================
+
+    const skillsContainer =
+        document.getElementById("skillsContainer");
+
+
+    skills.forEach(skill => {
+
+        const row = document.createElement("div");
+
+        row.className = "skill-row";
+
+        row.innerHTML = `
+
+            <div class="skill-name">
+                ${skill}
+            </div>
+
+            <div class="skill-options">
+
+                <label>
+                    <input
+                        type="radio"
+                        name="skill-${skill}"
+                        value="0"
+                        checked
+                    >
+                    None
+                </label>
+
+                <label>
+                    <input
+                        type="radio"
+                        name="skill-${skill}"
+                        value="1"
+                    >
+                    Basic
+                </label>
+
+                <label>
+                    <input
+                        type="radio"
+                        name="skill-${skill}"
+                        value="2"
+                    >
+                    Intermediate
+                </label>
+
+                <label>
+                    <input
+                        type="radio"
+                        name="skill-${skill}"
+                        value="3"
+                    >
+                    Strong
+                </label>
+
+            </div>
+
+        `;
+
+        skillsContainer.appendChild(row);
+
+    });
+
+
+    // =========================================================
+    // GET USER SKILLS
+    // =========================================================
+
+    function getUserSkills() {
+
+        const result = {};
+
+        skills.forEach(skill => {
+
+            const selected =
+                document.querySelector(
+                    `input[name="skill-${skill}"]:checked`
+                );
+
+            result[skill] =
+                selected
+                    ? Number(selected.value)
+                    : 0;
+
+        });
+
+        return result;
+    }
+
+
+    // =========================================================
+    // PRIORITY BADGE
+    // =========================================================
+
+    function priorityBadge(priority) {
+
+        return `
+            <span class="badge">
+                ${priority}
+            </span>
+        `;
+
+    }
+
+
+    // =========================================================
+    // FORMAT SKILL RESULT
+    // =========================================================
+
+    function renderSkill(item) {
+
+        const score =
+            Number(item.priority_score || 0);
+
+        return `
+
+            <div class="skill-card">
+
+                <div class="skill-heading">
+
+                    <div>
+
+                        <h3>
+                            ${item.canonical_skill}
+                        </h3>
+
+                        ${priorityBadge(item.priority)}
+
+                    </div>
+
+                    <div class="priority-score">
+                        ${score.toFixed(1)}
+                    </div>
+
+                </div>
+
+
+                <div class="progress-bg">
+
+                    <div
+                        class="progress"
+                        style="width:${Math.min(score, 100)}%"
+                    ></div>
+
+                </div>
+
+
+                <div class="stats">
+
+                    <div class="stat">
+
+                        <div class="stat-label">
+                            Your level
+                        </div>
+
+                        <div class="stat-value">
+                            ${item.current_skill_label || "None"}
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <div class="stat-label">
+                            Target
+                        </div>
+
+                        <div class="stat-value">
+                            ${item.target_level}
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <div class="stat-label">
+                            Skill gap
+                        </div>
+
+                        <div class="stat-value">
+                            ${Number(item.skill_gap || 0).toFixed(0)}%
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <div class="stat-label">
+                            Market demand
+                        </div>
+
+                        <div class="stat-value">
+                            ${Number(item.demand_percentage || 0).toFixed(2)}%
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <div class="stat-label">
+                            Career growth
+                        </div>
+
+                        <div class="stat-value">
+                            +${Number(item.career_growth || 0).toFixed(2)}
+                        </div>
+
+                    </div>
+
+
+                    <div class="stat">
+
+                        <div class="stat-label">
+                            Priority
+                        </div>
+
+                        <div class="stat-value">
+                            ${score.toFixed(1)}
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="reason">
+
+                    <strong>
+                        Why this skill?
+                    </strong>
+
+                    ${item.reason || "Recommended based on your career goal."}
+
+                </div>
+
+            </div>
+
+        `;
+
+    }
+
+
+    // =========================================================
+    // RENDER CATEGORY
+    // =========================================================
+
+    function renderCategory(elementId, items) {
+
+        const container =
+            document.getElementById(elementId);
+
+        if (!items || items.length === 0) {
+
+            container.innerHTML =
+                `<p style="color:#888;font-size:13px;">
+                    No recommendations in this category.
+                </p>`;
+
+            return;
+
+        }
+
+        container.innerHTML =
+            items.map(renderSkill).join("");
+
+    }
+
+
+    // =========================================================
+    // RENDER ROLE FIT
+    // =========================================================
+
+    function renderRoleFit(data, targetRole) {
+
+        const all = [
+            ...(data.core || []),
+            ...(data.growth || []),
+            ...(data.specialized || [])
+        ];
+
+        all.sort(
+            (a, b) =>
+                Number(b.priority_score) -
+                Number(a.priority_score)
+        );
+
+        const top = all.slice(0, 3);
+
+        const container =
+            document.getElementById("roleFitContent");
+
+        if (!top.length) {
+            container.innerHTML =
+                `<p style="color:#888;font-size:13px;">
+                    No role-fit recommendations available.
+                </p>`;
+            return;
+        }
+
+        const highest = top[0];
+
+        container.innerHTML = `
+            <div style="
+                display:grid;
+                grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+                gap:14px;
+                margin-top:18px;
+            ">
+                ${top.map((item, index) => `
+                    <div style="
+                        border:1px solid #e8e8e8;
+                        border-radius:12px;
+                        padding:18px;
+                        background:#fafafa;
+                    ">
+                        <div style="
+                            font-size:12px;
+                            color:#777;
+                            margin-bottom:8px;
+                        ">
+                            ${index === 0 ? "Highest gap" : `Priority ${index + 1}`}
+                        </div>
+
+                        <h3 style="
+                            margin:0 0 8px;
+                            font-size:18px;
+                        ">
+                            ${item.canonical_skill}
+                        </h3>
+
+                        ${priorityBadge(item.priority)}
+
+                        <div style="
+                            margin-top:12px;
+                            font-size:13px;
+                            color:#555;
+                        ">
+                            Skill gap:
+                            <strong>
+                                ${Number(item.skill_gap || 0).toFixed(0)}%
+                            </strong>
+                        </div>
+                    </div>
+                `).join("")}
+            </div>
+
+            <div style="
+                margin-top:16px;
+                padding:16px;
+                border-radius:10px;
+                background:#f5f5f5;
+                font-size:14px;
+                line-height:1.6;
+            ">
+                For <strong>${targetRole}</strong>, your current profile has the
+                biggest priority gaps in
+                <strong>${top.map(item => item.canonical_skill).join(", ")}</strong>.
+                Your highest-priority skill is
+                <strong>${highest.canonical_skill}</strong>.
+            </div>
+        `;
+    }
+
+
+    // =========================================================
+    // RENDER NEXT 3
+    // =========================================================
+
+    function renderNextSkills(data) {
+
+        const all = [
+
+            ...(data.core || []),
+            ...(data.growth || []),
+            ...(data.specialized || [])
+
+        ];
+
+
+        all.sort(
+            (a, b) =>
+                Number(b.priority_score) -
+                Number(a.priority_score)
+        );
+
+
+        const top =
+            all.slice(0, 3);
+
+
+        const container =
+            document.getElementById("nextSkills");
+
+
+        container.innerHTML =
+            top.map((item, index) => `
+
+                <div class="next-card">
+
+                    <div class="rank">
+                        0${index + 1}
+                    </div>
+
+                    <h3>
+                        ${item.canonical_skill}
+                    </h3>
+
+                    ${priorityBadge(item.priority)}
+
+                    <div class="next-score">
+                        Priority ${Number(
+                            item.priority_score
+                        ).toFixed(1)} / 100
+                    </div>
+
+                </div>
+
+            `).join("");
+
+    }
+
+
+    // =========================================================
+    // RENDER ROADMAP
+    // =========================================================
+
+    function renderRoadmap(roadmap) {
+
+        const container =
+            document.getElementById("roadmapResults");
+
+
+        if (!roadmap || roadmap.length === 0) {
+
+            container.innerHTML =
+                `<p style="color:#888;">
+                    No roadmap available.
+                </p>`;
+
+            return;
+
+        }
+
+
+        container.innerHTML =
+            roadmap.map(item => `
+
+                <div class="roadmap-skill">
+
+                    <div class="roadmap-header">
+
+                        <div>
+
+                            <h3>
+                                ${item.skill}
+                            </h3>
+
+                            ${priorityBadge(item.priority)}
+
+                        </div>
+
+                        <div class="roadmap-score">
+                            Priority ${Number(
+                                item.priority_score
+                            ).toFixed(1)}
+                        </div>
+
+                    </div>
+
+
+                    <div class="roadmap-grid">
+
+
+                        <div class="phase">
+
+                            <div class="phase-title">
+                                Days 1â€“30
+                            </div>
+
+                            <ul>
+
+                                ${(item.days_1_30 || [])
+                                    .map(topic =>
+                                        `<li>${topic}</li>`
+                                    )
+                                    .join("")}
+
+                            </ul>
+
+                        </div>
+
+
+                        <div class="phase">
+
+                            <div class="phase-title">
+                                Days 31â€“60
+                            </div>
+
+                            <ul>
+
+                                ${(item.days_31_60 || [])
+                                    .map(topic =>
+                                        `<li>${topic}</li>`
+                                    )
+                                    .join("")}
+
+                            </ul>
+
+                        </div>
+
+
+                        <div class="phase">
+
+                            <div class="phase-title">
+                                Days 61â€“90
+                            </div>
+
+                            <ul>
+
+                                ${(item.days_61_90 || [])
+                                    .map(topic =>
+                                        `<li>${topic}</li>`
+                                    )
+                                    .join("")}
+
+                            </ul>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            `).join("");
+
+    }
+
+
+    // =========================================================
+    // ANALYZE
+    // =========================================================
+
+    document
+        .getElementById("analyzeBtn")
+        .addEventListener("click", async function () {
+
+            const button = this;
+
+
+            const currentLevel =
+                document.getElementById(
+                    "currentLevel"
+                ).value;
+
+
+            const targetLevel =
+                document.getElementById(
+                    "targetLevel"
+                ).value;
+
+
+            const targetRole =
+                document.getElementById(
+                    "targetRole"
+                ).value;
+
+
+            const userSkills =
+                getUserSkills();
+
+
+            const requestData = {
+
+                current_level:
+                    currentLevel,
+
+                target_level:
+                    targetLevel,
+
+                target_role:
+                    targetRole,
+
+                skills:
+                    userSkills
+
+            };
+
+
+            button.disabled = true;
+
+            button.textContent =
+                "Analyzing...";
+
+
+            document
+                .getElementById("errorBox")
+                .classList.add("hidden");
+
+
+            try {
+
+                const response =
+                    await fetch(
+                        `${API_URL}/recommend`,
+                        {
+
+                            method: "POST",
+
+                            headers: {
+
+                                "Content-Type":
+                                    "application/json",
+
+                                "Accept":
+                                    "application/json"
+
+                            },
+
+                            body:
+                                JSON.stringify(
+                                    requestData
+                                )
+
+                        }
+                    );
+
+
+                const data =
+                    await response.json();
+
+
+                if (!response.ok) {
+
+                    throw new Error(
+                        data.detail ||
+                        `API returned ${response.status}`
+                    );
+
+                }
+
+
+                // -----------------------------------------
+                // SHOW RESULTS
+                // -----------------------------------------
+
+                document
+                    .getElementById("results")
+                    .classList.remove("hidden");
+
+
+                document
+                    .getElementById("careerTransition")
+                    .textContent =
+                        `${data.target_role || targetRole} â€¢ ${data.current_level} â†’ ${data.target_level}`;
+
+
+                document
+                    .getElementById("summaryTransition")
+                    .textContent =
+                        `${data.target_role || targetRole}: ${data.current_level} â†’ ${data.target_level}`;
+
+
+                // -----------------------------------------
+                // FIND HIGHEST PRIORITY
+                // -----------------------------------------
+
+                const all = [
+
+                    ...(data.core || []),
+                    ...(data.growth || []),
+                    ...(data.specialized || [])
+
+                ];
+
+
+                all.sort(
+                    (a, b) =>
+                        Number(b.priority_score) -
+                        Number(a.priority_score)
+                );
+
+
+                const highest =
+                    all[0];
+
+
+                if (highest) {
+
+                    document
+                        .getElementById("highestSkill")
+                        .textContent =
+                            highest.canonical_skill;
+
+
+                    document
+                        .getElementById("highestPriority")
+                        .textContent =
+                            highest.priority;
+
+
+                    document
+                        .getElementById("highestScore")
+                        .textContent =
+                            Number(
+                                highest.priority_score
+                            ).toFixed(1);
+
+                }
+
+
+                // -----------------------------------------
+                // RENDER EVERYTHING
+                // -----------------------------------------
+
+                renderRoleFit(
+                    data,
+                    data.target_role || targetRole
+                );
+
+                renderNextSkills(data);
+
+                renderCategory(
+                    "coreResults",
+                    data.core
+                );
+
+                renderCategory(
+                    "growthResults",
+                    data.growth
+                );
+
+                renderCategory(
+                    "specializedResults",
+                    data.specialized
+                );
+
+                renderRoadmap(
+                    data.roadmap
+                );
+
+
+                // Scroll to results
+
+                document
+                    .getElementById("results")
+                    .scrollIntoView({
+                        behavior: "smooth"
+                    });
+
+            }
+
+
+            catch (error) {
+
+                console.error(
+                    "SkillGap API error:",
+                    error
+                );
+
+
+                const errorBox =
+                    document.getElementById(
+                        "errorBox"
+                    );
+
+
+                errorBox.textContent =
+                    `Could not connect to SkillGap API. ${error.message}`;
+
+
+                errorBox.classList.remove(
+                    "hidden"
+                );
+
+            }
+
+
+            finally {
+
+                button.disabled = false;
+
+                button.textContent =
+                    "Analyze My Skill Gap";
+
+            }
+
+        });
+
+</script>
+
+</body>
+
+</html>

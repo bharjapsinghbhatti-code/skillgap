@@ -1,0 +1,237 @@
+experience_level,canonical_skill,category,job_count,total_jobs,demand_percentage
+Associate,SQL,Data & Analytics,22,28,78.57142857142857
+Associate,Excel,BI & Reporting,16,28,57.14285714285714
+Associate,Data Visualization,Data & Analytics,15,28,53.57142857142857
+Associate,Tableau,BI & Reporting,15,28,53.57142857142857
+Associate,Power BI,BI & Reporting,13,28,46.42857142857143
+Associate,Python,Programming & Data,12,28,42.857142857142854
+Associate,Data Analysis,Data & Analytics,10,28,35.714285714285715
+Associate,Data Modeling,Data & Analytics,10,28,35.714285714285715
+Associate,Reporting,BI & Reporting,7,28,25.0
+Associate,Data Quality,Data & Analytics,6,28,21.428571428571427
+Associate,ETL,Data Engineering,6,28,21.428571428571427
+Associate,Snowflake,Data Platforms,6,28,21.428571428571427
+Associate,Looker,BI & Reporting,5,28,17.857142857142858
+Associate,R,Programming & Data,4,28,14.285714285714285
+Associate,Data Warehousing,Data Engineering,3,28,10.714285714285714
+Associate,Statistics,Data & Analytics,2,28,7.142857142857142
+Associate,AWS,Cloud,1,28,3.571428571428571
+Associate,Machine Learning,AI & Machine Learning,1,28,3.571428571428571
+Associate,PowerPoint,Business & Professional,1,28,3.571428571428571
+Associate,SAP,Enterprise Systems,1,28,3.571428571428571
+Associate,SQL Server,Databases,1,28,3.571428571428571
+Associate,VBA,Programming & Data,1,28,3.571428571428571
+Entry level,Excel,BI & Reporting,174,271,64.20664206642066
+Entry level,SQL,Data & Analytics,134,271,49.44649446494465
+Entry level,Python,Programming & Data,60,271,22.14022140221402
+Entry level,Power BI,BI & Reporting,59,271,21.771217712177123
+Entry level,Tableau,BI & Reporting,50,271,18.45018450184502
+Entry level,Data Analysis,Data & Analytics,33,271,12.177121771217712
+Entry level,Data Visualization,Data & Analytics,32,271,11.808118081180812
+Entry level,PowerPoint,Business & Professional,32,271,11.808118081180812
+Entry level,R,Programming & Data,24,271,8.856088560885608
+Entry level,Statistics,Data & Analytics,18,271,6.642066420664207
+Entry level,Data Modeling,Data & Analytics,13,271,4.797047970479705
+Entry level,Reporting,BI & Reporting,11,271,4.059040590405904
+Entry level,Looker,BI & Reporting,10,271,3.6900369003690034
+Entry level,Machine Learning,AI & Machine Learning,8,271,2.952029520295203
+Entry level,SAS,Data & Analytics,8,271,2.952029520295203
+Entry level,VBA,Programming & Data,8,271,2.952029520295203
+Entry level,Data Mining,Data & Analytics,6,271,2.214022140221402
+Entry level,ETL,Data Engineering,6,271,2.214022140221402
+Entry level,Oracle,Databases,6,271,2.214022140221402
+Entry level,SAP,Enterprise Systems,6,271,2.214022140221402
+Entry level,SQL Server,Databases,6,271,2.214022140221402
+Entry level,Data Quality,Data & Analytics,5,271,1.8450184501845017
+Entry level,Snowflake,Data Platforms,5,271,1.8450184501845017
+Entry level,Azure,Cloud,4,271,1.4760147601476015
+Entry level,SPSS,Data & Analytics,4,271,1.4760147601476015
+Entry level,AWS,Cloud,3,271,1.107011070110701
+Entry level,Data Warehousing,Data Engineering,1,271,0.36900369003690037
+Internship,Excel,BI & Reporting,4,5,80.0
+Internship,Python,Programming & Data,4,5,80.0
+Internship,Data Analysis,Data & Analytics,3,5,60.0
+Internship,Reporting,BI & Reporting,3,5,60.0
+Internship,SQL,Data & Analytics,3,5,60.0
+Internship,Data Quality,Data & Analytics,2,5,40.0
+Internship,Machine Learning,AI & Machine Learning,2,5,40.0
+Internship,Power BI,BI & Reporting,2,5,40.0
+Internship,PowerPoint,Business & Professional,2,5,40.0
+Internship,R,Programming & Data,2,5,40.0
+Internship,Tableau,BI & Reporting,2,5,40.0
+Internship,Azure,Cloud,1,5,20.0
+Internship,Data Visualization,Data & Analytics,1,5,20.0
+Junior,SQL,Data & Analytics,76,119,63.86554621848739
+Junior,Excel,BI & Reporting,64,119,53.78151260504202
+Junior,Power BI,BI & Reporting,44,119,36.97478991596639
+Junior,Tableau,BI & Reporting,40,119,33.61344537815126
+Junior,Python,Programming & Data,39,119,32.773109243697476
+Junior,R,Programming & Data,17,119,14.285714285714285
+Junior,Data Visualization,Data & Analytics,15,119,12.605042016806722
+Junior,Statistics,Data & Analytics,14,119,11.76470588235294
+Junior,Data Analysis,Data & Analytics,13,119,10.92436974789916
+Junior,Data Modeling,Data & Analytics,10,119,8.403361344537815
+Junior,Looker,BI & Reporting,10,119,8.403361344537815
+Junior,PowerPoint,Business & Professional,10,119,8.403361344537815
+Junior,Data Mining,Data & Analytics,8,119,6.722689075630252
+Junior,Machine Learning,AI & Machine Learning,7,119,5.88235294117647
+Junior,SAS,Data & Analytics,7,119,5.88235294117647
+Junior,SQL Server,Databases,6,119,5.042016806722689
+Junior,VBA,Programming & Data,6,119,5.042016806722689
+Junior,AWS,Cloud,5,119,4.201680672268908
+Junior,Data Warehousing,Data Engineering,5,119,4.201680672268908
+Junior,Reporting,BI & Reporting,5,119,4.201680672268908
+Junior,Data Quality,Data & Analytics,4,119,3.361344537815126
+Junior,ETL,Data Engineering,4,119,3.361344537815126
+Junior,SAP,Enterprise Systems,4,119,3.361344537815126
+Junior,SPSS,Data & Analytics,4,119,3.361344537815126
+Junior,Azure,Cloud,3,119,2.5210084033613445
+Junior,Oracle,Databases,3,119,2.5210084033613445
+Junior,Snowflake,Data Platforms,2,119,1.680672268907563
+Lead,SQL,Data & Analytics,15,29,51.724137931034484
+Lead,Excel,BI & Reporting,8,29,27.586206896551722
+Lead,Statistics,Data & Analytics,8,29,27.586206896551722
+Lead,Tableau,BI & Reporting,8,29,27.586206896551722
+Lead,Python,Programming & Data,7,29,24.137931034482758
+Lead,R,Programming & Data,5,29,17.24137931034483
+Lead,Data Visualization,Data & Analytics,4,29,13.793103448275861
+Lead,Power BI,BI & Reporting,4,29,13.793103448275861
+Lead,Data Analysis,Data & Analytics,3,29,10.344827586206897
+Lead,Data Modeling,Data & Analytics,3,29,10.344827586206897
+Lead,Reporting,BI & Reporting,3,29,10.344827586206897
+Lead,SAS,Data & Analytics,3,29,10.344827586206897
+Lead,Looker,BI & Reporting,2,29,6.896551724137931
+Lead,Machine Learning,AI & Machine Learning,2,29,6.896551724137931
+Lead,Snowflake,Data Platforms,2,29,6.896551724137931
+Lead,Azure,Cloud,1,29,3.4482758620689653
+Lead,Data Mining,Data & Analytics,1,29,3.4482758620689653
+Lead,Data Warehousing,Data Engineering,1,29,3.4482758620689653
+Lead,ETL,Data Engineering,1,29,3.4482758620689653
+Lead,PowerPoint,Business & Professional,1,29,3.4482758620689653
+Lead,VBA,Programming & Data,1,29,3.4482758620689653
+Mid-Senior level,SQL,Data & Analytics,40,53,75.47169811320755
+Mid-Senior level,Power BI,BI & Reporting,25,53,47.16981132075472
+Mid-Senior level,Python,Programming & Data,23,53,43.39622641509434
+Mid-Senior level,Tableau,BI & Reporting,23,53,43.39622641509434
+Mid-Senior level,Excel,BI & Reporting,19,53,35.84905660377358
+Mid-Senior level,Data Analysis,Data & Analytics,17,53,32.075471698113205
+Mid-Senior level,Data Visualization,Data & Analytics,15,53,28.30188679245283
+Mid-Senior level,Data Modeling,Data & Analytics,12,53,22.641509433962266
+Mid-Senior level,Reporting,BI & Reporting,12,53,22.641509433962266
+Mid-Senior level,R,Programming & Data,10,53,18.867924528301888
+Mid-Senior level,Data Quality,Data & Analytics,9,53,16.9811320754717
+Mid-Senior level,Statistics,Data & Analytics,9,53,16.9811320754717
+Mid-Senior level,Looker,BI & Reporting,8,53,15.09433962264151
+Mid-Senior level,Snowflake,Data Platforms,7,53,13.20754716981132
+Mid-Senior level,ETL,Data Engineering,6,53,11.320754716981133
+Mid-Senior level,Machine Learning,AI & Machine Learning,6,53,11.320754716981133
+Mid-Senior level,AWS,Cloud,5,53,9.433962264150944
+Mid-Senior level,Azure,Cloud,3,53,5.660377358490567
+Mid-Senior level,Oracle,Databases,3,53,5.660377358490567
+Mid-Senior level,PowerPoint,Business & Professional,3,53,5.660377358490567
+Mid-Senior level,SAP,Enterprise Systems,3,53,5.660377358490567
+Mid-Senior level,Data Mining,Data & Analytics,1,53,1.8867924528301887
+Mid-Senior level,Data Warehousing,Data Engineering,1,53,1.8867924528301887
+Mid-Senior level,SAS,Data & Analytics,1,53,1.8867924528301887
+Mid-Senior level,SQL Server,Databases,1,53,1.8867924528301887
+Middle,SQL,Data & Analytics,290,368,78.80434782608695
+Middle,Excel,BI & Reporting,166,368,45.108695652173914
+Middle,Python,Programming & Data,162,368,44.02173913043478
+Middle,Tableau,BI & Reporting,151,368,41.03260869565217
+Middle,Power BI,BI & Reporting,134,368,36.41304347826087
+Middle,R,Programming & Data,98,368,26.6304347826087
+Middle,Data Visualization,Data & Analytics,75,368,20.380434782608695
+Middle,Statistics,Data & Analytics,74,368,20.108695652173914
+Middle,Data Modeling,Data & Analytics,53,368,14.402173913043478
+Middle,Data Analysis,Data & Analytics,49,368,13.31521739130435
+Middle,SAS,Data & Analytics,47,368,12.771739130434783
+Middle,ETL,Data Engineering,40,368,10.869565217391305
+Middle,Data Mining,Data & Analytics,30,368,8.152173913043478
+Middle,PowerPoint,Business & Professional,27,368,7.336956521739131
+Middle,AWS,Cloud,25,368,6.7934782608695645
+Middle,Looker,BI & Reporting,25,368,6.7934782608695645
+Middle,Snowflake,Data Platforms,25,368,6.7934782608695645
+Middle,Machine Learning,AI & Machine Learning,22,368,5.978260869565218
+Middle,Reporting,BI & Reporting,21,368,5.706521739130435
+Middle,Data Warehousing,Data Engineering,20,368,5.434782608695652
+Middle,Azure,Cloud,16,368,4.3478260869565215
+Middle,Oracle,Databases,14,368,3.804347826086957
+Middle,SPSS,Data & Analytics,14,368,3.804347826086957
+Middle,SAP,Enterprise Systems,11,368,2.989130434782609
+Middle,SQL Server,Databases,8,368,2.1739130434782608
+Middle,VBA,Programming & Data,8,368,2.1739130434782608
+Middle,Data Quality,Data & Analytics,7,368,1.9021739130434785
+Not Applicable,SQL,Data & Analytics,76,89,85.39325842696628
+Not Applicable,Python,Programming & Data,50,89,56.17977528089888
+Not Applicable,Tableau,BI & Reporting,48,89,53.93258426966292
+Not Applicable,Data Visualization,Data & Analytics,44,89,49.43820224719101
+Not Applicable,Data Analysis,Data & Analytics,39,89,43.82022471910113
+Not Applicable,Excel,BI & Reporting,36,89,40.44943820224719
+Not Applicable,Power BI,BI & Reporting,31,89,34.831460674157306
+Not Applicable,Data Modeling,Data & Analytics,22,89,24.719101123595504
+Not Applicable,Reporting,BI & Reporting,22,89,24.719101123595504
+Not Applicable,Statistics,Data & Analytics,19,89,21.34831460674157
+Not Applicable,R,Programming & Data,18,89,20.224719101123593
+Not Applicable,Looker,BI & Reporting,16,89,17.97752808988764
+Not Applicable,ETL,Data Engineering,15,89,16.853932584269664
+Not Applicable,Data Quality,Data & Analytics,13,89,14.606741573033707
+Not Applicable,Snowflake,Data Platforms,11,89,12.359550561797752
+Not Applicable,AWS,Cloud,6,89,6.741573033707865
+Not Applicable,Data Warehousing,Data Engineering,6,89,6.741573033707865
+Not Applicable,Machine Learning,AI & Machine Learning,6,89,6.741573033707865
+Not Applicable,PowerPoint,Business & Professional,6,89,6.741573033707865
+Not Applicable,Data Mining,Data & Analytics,5,89,5.617977528089887
+Not Applicable,Oracle,Databases,4,89,4.49438202247191
+Not Applicable,Azure,Cloud,3,89,3.3707865168539324
+Not Applicable,SPSS,Data & Analytics,3,89,3.3707865168539324
+Not Applicable,SQL Server,Databases,3,89,3.3707865168539324
+Not Applicable,VBA,Programming & Data,3,89,3.3707865168539324
+Not Applicable,SAP,Enterprise Systems,2,89,2.247191011235955
+Not Applicable,SAS,Data & Analytics,2,89,2.247191011235955
+Not specified,SQL,Data & Analytics,442,947,46.673706441393875
+Not specified,Python,Programming & Data,300,947,31.678986272439282
+Not specified,Excel,BI & Reporting,263,947,27.771911298838436
+Not specified,Tableau,BI & Reporting,255,947,26.927138331573392
+Not specified,Power BI,BI & Reporting,176,947,18.585005279831044
+Not specified,R,Programming & Data,157,947,16.578669482576558
+Not specified,SAS,Data & Analytics,72,947,7.602956705385427
+Not specified,PowerPoint,Business & Professional,48,947,5.068637803590286
+Not specified,SAP,Enterprise Systems,47,947,4.963041182682154
+Not specified,Azure,Cloud,46,947,4.857444561774024
+Not specified,AWS,Cloud,45,947,4.7518479408658925
+Not specified,Snowflake,Data Platforms,39,947,4.118268215417107
+Not specified,Oracle,Databases,37,947,3.907074973600845
+Not specified,SQL Server,Databases,35,947,3.695881731784583
+Not specified,Looker,BI & Reporting,33,947,3.4846884899683213
+Not specified,SPSS,Data & Analytics,32,947,3.37909186906019
+Not specified,VBA,Programming & Data,28,947,2.956705385427666
+Not specified,Data Analysis,Data & Analytics,1,947,0.10559662090813093
+Not specified,Data Mining,Data & Analytics,1,947,0.10559662090813093
+Not specified,Data Visualization,Data & Analytics,1,947,0.10559662090813093
+Senior,SQL,Data & Analytics,187,229,81.6593886462882
+Senior,Python,Programming & Data,97,229,42.35807860262008
+Senior,Tableau,BI & Reporting,85,229,37.117903930131
+Senior,Power BI,BI & Reporting,80,229,34.93449781659388
+Senior,Excel,BI & Reporting,71,229,31.004366812227076
+Senior,R,Programming & Data,58,229,25.327510917030565
+Senior,Data Visualization,Data & Analytics,47,229,20.52401746724891
+Senior,Data Modeling,Data & Analytics,37,229,16.157205240174672
+Senior,Data Analysis,Data & Analytics,36,229,15.72052401746725
+Senior,Looker,BI & Reporting,35,229,15.283842794759824
+Senior,Statistics,Data & Analytics,31,229,13.537117903930133
+Senior,ETL,Data Engineering,30,229,13.100436681222707
+Senior,SAS,Data & Analytics,29,229,12.663755458515283
+Senior,Snowflake,Data Platforms,28,229,12.22707423580786
+Senior,Oracle,Databases,20,229,8.73362445414847
+Senior,AWS,Cloud,19,229,8.296943231441048
+Senior,Machine Learning,AI & Machine Learning,19,229,8.296943231441048
+Senior,Data Warehousing,Data Engineering,16,229,6.986899563318777
+Senior,Data Mining,Data & Analytics,15,229,6.550218340611353
+Senior,Reporting,BI & Reporting,15,229,6.550218340611353
+Senior,SQL Server,Databases,15,229,6.550218340611353
+Senior,Data Quality,Data & Analytics,14,229,6.11353711790393
+Senior,Azure,Cloud,13,229,5.676855895196507
+Senior,PowerPoint,Business & Professional,13,229,5.676855895196507
+Senior,VBA,Programming & Data,11,229,4.8034934497816595
+Senior,SPSS,Data & Analytics,10,229,4.366812227074235
+Senior,SAP,Enterprise Systems,4,229,1.7467248908296942

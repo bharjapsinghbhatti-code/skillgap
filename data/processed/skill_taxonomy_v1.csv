@@ -1,0 +1,24 @@
+raw_skill,canonical_skill,category,subcategory,mapping_type,confidence
+SQL,SQL,Data & Analytics,Query Languages,Core,High
+Tableau,Tableau,BI & Reporting,BI Tools,Core,High
+Python,Python,Programming & Data,Programming Languages,Core,High
+Excel,Excel,BI & Reporting,Spreadsheets,Core,High
+Power BI,Power BI,BI & Reporting,BI Tools,Core,High
+Statistical Analysis,Statistics,Data & Analytics,Statistics,Variant,High
+Data Analysis,Data Analysis,Data & Analytics,Analysis,Core,High
+Data Visualization,Data Visualization,Data & Analytics,Visualization,Core,High
+Advanced SQL,SQL,Data & Analytics,Query Languages,Variant,High
+Statistics,Statistics,Data & Analytics,Statistics,Core,High
+Microsoft Excel,Excel,BI & Reporting,Spreadsheets,Alias,High
+Data analysis,Data Analysis,Data & Analytics,Analysis,Alias,High
+Data visualization,Data Visualization,Data & Analytics,Visualization,Alias,High
+MS Excel,Excel,BI & Reporting,Spreadsheets,Alias,High
+T-SQL,SQL,Data & Analytics,Query Languages,Variant,High
+MS SQL,SQL,Data & Analytics,Query Languages,Variant,High
+Tableau Prep,Tableau,BI & Reporting,BI Tools,Variant,High
+MSSQL,SQL,Data & Analytics,Query Languages,Variant,High
+Descriptive Statistics,Statistics,Data & Analytics,Statistics,Variant,High
+Inferential Statistics,Statistics,Data & Analytics,Statistics,Variant,High
+Data Visualization Tools,Data Visualization,Data & Analytics,Visualization,Variant,High
+Tableau Server,Tableau,BI & Reporting,BI Tools,Variant,High
+Microsoft Power BI,Power BI,BI & Reporting,BI Tools,Alias,High

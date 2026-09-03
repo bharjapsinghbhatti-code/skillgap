@@ -1,0 +1,47 @@
+raw_skill,canonical_skill,category,subcategory,skill_type,mapping_type,confidence,review_status
+SQL,SQL,Data & Analytics,Query Languages,Language,Core,High,Approved
+Advanced SQL,SQL,Data & Analytics,Query Languages,Language,Variant,High,Approved
+T-SQL,SQL,Data & Analytics,Query Languages,Language,Variant,High,Approved
+MS SQL,SQL,Data & Analytics,Query Languages,Language,Variant,High,Approved
+MSSQL,SQL,Data & Analytics,Query Languages,Language,Variant,High,Approved
+SQL Functions,SQL,Data & Analytics,Query Languages,Language,Variant,High,Approved
+SQL Query Optimization,SQL,Data & Analytics,Query Languages,Language,Variant,Medium,Review
+SQL Performance Tuning,SQL,Data & Analytics,Query Languages,Language,Variant,Medium,Review
+Excel,Excel,BI & Reporting,Spreadsheets,Tool,Core,High,Approved
+Microsoft Excel,Excel,BI & Reporting,Spreadsheets,Tool,Alias,High,Approved
+MS Excel,Excel,BI & Reporting,Spreadsheets,Tool,Alias,High,Approved
+Power BI,Power BI,BI & Reporting,BI Tools,Tool,Core,High,Approved
+Microsoft Power BI,Power BI,BI & Reporting,BI Tools,Tool,Alias,High,Approved
+Tableau,Tableau,BI & Reporting,BI Tools,Tool,Core,High,Approved
+Tableau Server,Tableau,BI & Reporting,BI Tools,Tool,Variant,High,Approved
+Tableau Prep,Tableau,BI & Reporting,BI Tools,Tool,Variant,High,Approved
+Python,Python,Programming & Data,Programming Languages,Language,Core,High,Approved
+Statistics,Statistics,Data & Analytics,Statistics,Capability,Core,High,Approved
+Statistical Analysis,Statistics,Data & Analytics,Statistics,Capability,Variant,High,Approved
+Descriptive Statistics,Statistics,Data & Analytics,Statistics,Capability,Variant,High,Approved
+Inferential Statistics,Statistics,Data & Analytics,Statistics,Capability,Variant,High,Approved
+Data Analysis,Data Analysis,Data & Analytics,Analysis,Capability,Core,High,Approved
+Data analysis,Data Analysis,Data & Analytics,Analysis,Capability,Alias,High,Approved
+Data Visualization,Data Visualization,Data & Analytics,Visualization,Capability,Core,High,Approved
+Data visualization,Data Visualization,Data & Analytics,Visualization,Capability,Alias,High,Approved
+Data Visualization Tools,Data Visualization,Data & Analytics,Visualization,Capability,Variant,Medium,Review
+R,R,Programming & Data,Programming Languages,Language,Core,High,Approved
+SAS,SAS,Data & Analytics,Statistical Software,Tool,Core,High,Approved
+Data Modeling,Data Modeling,Data & Analytics,Data Modeling,Capability,Core,High,Approved
+Looker,Looker,BI & Reporting,BI Tools,Tool,Core,High,Approved
+Snowflake,Snowflake,Data Platforms,Cloud Data Platforms,Platform,Core,High,Approved
+AWS,AWS,Cloud,Cloud Platforms,Platform,Core,High,Approved
+PowerPoint,PowerPoint,Business & Professional,Presentation,Tool,Core,High,Approved
+Microsoft PowerPoint,PowerPoint,Business & Professional,Presentation,Tool,Alias,High,Approved
+ETL,ETL,Data Engineering,Data Integration,Capability,Core,High,Approved
+Reporting,Reporting,BI & Reporting,Reporting,Capability,Core,High,Approved
+Azure,Azure,Cloud,Cloud Platforms,Platform,Core,High,Approved
+Oracle,Oracle,Databases,Database Platforms,Platform,Core,High,Approved
+SAP,SAP,Enterprise Systems,Enterprise Platforms,Platform,Core,High,Approved
+SQL Server,SQL Server,Databases,Relational Databases,Platform,Core,High,Approved
+Machine Learning,Machine Learning,AI & Machine Learning,Machine Learning,Capability,Core,High,Approved
+Data Mining,Data Mining,Data & Analytics,Advanced Analytics,Capability,Core,High,Approved
+SPSS,SPSS,Data & Analytics,Statistical Software,Tool,Core,High,Approved
+VBA,VBA,Programming & Data,Automation,Language,Core,High,Approved
+Data Quality,Data Quality,Data & Analytics,Data Quality,Capability,Core,High,Approved
+Data Warehousing,Data Warehousing,Data Engineering,Data Warehousing,Capability,Core,High,Approved

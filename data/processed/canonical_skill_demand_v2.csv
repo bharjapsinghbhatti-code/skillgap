@@ -1,0 +1,28 @@
+canonical_skill,category,subcategory,skill_type,job_count,demand_percentage
+SQL,Data & Analytics,Query Languages,Language,1298,60.25998142989787
+Excel,BI & Reporting,Spreadsheets,Tool,825,38.3008356545961
+Python,Programming & Data,Programming Languages,Language,760,35.28319405756732
+Tableau,BI & Reporting,BI Tools,Tool,685,31.801299907149488
+Power BI,BI & Reporting,BI Tools,Tool,578,26.83379758588672
+R,Programming & Data,Programming Languages,Language,395,18.33797585886722
+Data Visualization,Data & Analytics,Visualization,Capability,260,12.070566388115136
+Data Analysis,Data & Analytics,Analysis,Capability,212,9.842154131847725
+Statistics,Data & Analytics,Statistics,Capability,180,8.356545961002785
+SAS,Data & Analytics,Statistical Software,Tool,169,7.8458681522748375
+Data Modeling,Data & Analytics,Data Modeling,Capability,166,7.706592386258125
+Looker,BI & Reporting,BI Tools,Tool,145,6.731662024141133
+PowerPoint,Business & Professional,Presentation,Tool,144,6.685236768802229
+Snowflake,Data Platforms,Cloud Data Platforms,Platform,127,5.896007428040854
+AWS,Cloud,Cloud Platforms,Platform,111,5.153203342618385
+ETL,Data Engineering,Data Integration,Capability,110,5.10677808727948
+Reporting,BI & Reporting,Reporting,Capability,102,4.735376044568245
+Azure,Cloud,Cloud Platforms,Platform,91,4.224698235840297
+Oracle,Databases,Database Platforms,Platform,87,4.03899721448468
+SAP,Enterprise Systems,Enterprise Platforms,Platform,78,3.6211699164345403
+SQL Server,Databases,Relational Databases,Platform,75,3.4818941504178276
+Machine Learning,AI & Machine Learning,Machine Learning,Capability,74,3.4354688950789227
+Data Mining,Data & Analytics,Advanced Analytics,Capability,67,3.1104921077065923
+SPSS,Data & Analytics,Statistical Software,Tool,67,3.1104921077065923
+VBA,Programming & Data,Automation,Language,66,3.064066852367688
+Data Quality,Data & Analytics,Data Quality,Capability,62,2.8783658310120708
+Data Warehousing,Data Engineering,Data Warehousing,Capability,59,2.7390900649953576

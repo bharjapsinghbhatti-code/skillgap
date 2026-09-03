@@ -1,0 +1,54 @@
+role_family,canonical_skill,category,job_count,total_jobs,demand_percentage
+Business Analyst,AWS,Cloud,1,66,1.5151515151515151
+Business Analyst,Azure,Cloud,2,66,3.0303030303030303
+Business Analyst,Data Analysis,Data & Analytics,7,66,10.606060606060606
+Business Analyst,Data Mining,Data & Analytics,2,66,3.0303030303030303
+Business Analyst,Data Modeling,Data & Analytics,6,66,9.090909090909092
+Business Analyst,Data Quality,Data & Analytics,4,66,6.0606060606060606
+Business Analyst,Data Visualization,Data & Analytics,7,66,10.606060606060606
+Business Analyst,Data Warehousing,Data Engineering,3,66,4.545454545454546
+Business Analyst,ETL,Data Engineering,2,66,3.0303030303030303
+Business Analyst,Excel,BI & Reporting,29,66,43.93939393939394
+Business Analyst,Looker,BI & Reporting,2,66,3.0303030303030303
+Business Analyst,Machine Learning,AI & Machine Learning,1,66,1.5151515151515151
+Business Analyst,Oracle,Databases,4,66,6.0606060606060606
+Business Analyst,Power BI,BI & Reporting,12,66,18.181818181818183
+Business Analyst,PowerPoint,Business & Professional,8,66,12.121212121212121
+Business Analyst,Python,Programming & Data,18,66,27.27272727272727
+Business Analyst,R,Programming & Data,11,66,16.666666666666664
+Business Analyst,Reporting,BI & Reporting,4,66,6.0606060606060606
+Business Analyst,SAP,Enterprise Systems,5,66,7.575757575757576
+Business Analyst,SAS,Data & Analytics,4,66,6.0606060606060606
+Business Analyst,SPSS,Data & Analytics,2,66,3.0303030303030303
+Business Analyst,SQL,Data & Analytics,40,66,60.60606060606061
+Business Analyst,SQL Server,Databases,4,66,6.0606060606060606
+Business Analyst,Statistics,Data & Analytics,2,66,3.0303030303030303
+Business Analyst,Tableau,BI & Reporting,18,66,27.27272727272727
+Business Analyst,VBA,Programming & Data,5,66,7.575757575757576
+Data Analyst,AWS,Cloud,110,2038,5.397448478900883
+Data Analyst,Azure,Cloud,89,2038,4.36702649656526
+Data Analyst,Data Analysis,Data & Analytics,188,2038,9.224730127576054
+Data Analyst,Data Mining,Data & Analytics,54,2038,2.649656526005888
+Data Analyst,Data Modeling,Data & Analytics,145,2038,7.114818449460255
+Data Analyst,Data Quality,Data & Analytics,53,2038,2.600588812561335
+Data Analyst,Data Visualization,Data & Analytics,232,2038,11.383709519136408
+Data Analyst,Data Warehousing,Data Engineering,53,2038,2.600588812561335
+Data Analyst,ETL,Data Engineering,105,2038,5.1521099116781155
+Data Analyst,Excel,BI & Reporting,773,2038,37.92934249263985
+Data Analyst,Looker,BI & Reporting,138,2038,6.771344455348381
+Data Analyst,Machine Learning,AI & Machine Learning,68,2038,3.3366045142296366
+Data Analyst,Oracle,Databases,82,2038,4.023552502453385
+Data Analyst,Power BI,BI & Reporting,554,2038,27.18351324828263
+Data Analyst,PowerPoint,Business & Professional,136,2038,6.673209028459273
+Data Analyst,Python,Programming & Data,729,2038,35.77036310107949
+Data Analyst,R,Programming & Data,380,2038,18.645731108930324
+Data Analyst,Reporting,BI & Reporting,90,2038,4.416094210009813
+Data Analyst,SAP,Enterprise Systems,73,2038,3.5819430814524047
+Data Analyst,SAS,Data & Analytics,153,2038,7.5073601570166835
+Data Analyst,SPSS,Data & Analytics,61,2038,2.9931305201177625
+Data Analyst,SQL,Data & Analytics,1222,2038,59.96074582924435
+Data Analyst,SQL Server,Databases,70,2038,3.434739941118744
+Data Analyst,Snowflake,Data Platforms,126,2038,6.182531894013739
+Data Analyst,Statistics,Data & Analytics,166,2038,8.145240431795878
+Data Analyst,Tableau,BI & Reporting,651,2038,31.94308145240432
+Data Analyst,VBA,Programming & Data,61,2038,2.9931305201177625
