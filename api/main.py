@@ -25,7 +25,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://127.0.0.1:5500",
-        "http://localhost:5500",`r`n        "https://skillgap-1-3fki.onrender.com"
+        "http://localhost:5500",
+        "https://skillgap-1-3fki.onrender.com"
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -293,3 +294,5 @@ def recommend(request: RecommendationRequest):
             status_code=500,
             detail=str(e)
         )
+
+
